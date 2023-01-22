@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CurrentComponent } from './current.component';
+import { ReferralPageComponent } from './referral-page.component';
 
-describe('CurrentComponent', () => {
-  let component: CurrentComponent;
-  let fixture: ComponentFixture<CurrentComponent>;
+describe('ReferralPageComponent', () => {
+  let component: ReferralPageComponent;
+  let fixture: ComponentFixture<ReferralPageComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CurrentComponent ]
+      declarations: [ ReferralPageComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(CurrentComponent);
+    fixture = TestBed.createComponent(ReferralPageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
