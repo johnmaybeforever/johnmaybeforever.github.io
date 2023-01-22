@@ -8,6 +8,8 @@ ng deploy --base-href=/<repositoryname>/
 for custom domain
 ng deploy --cname=example.org
 
+## purecss
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
