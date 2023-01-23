@@ -4,10 +4,10 @@
         <h2>{{referral.title}}</h2>
         <p>{{referral.desc}}
         </p>
-        <a *ngIf="referral.link" href="{{referral.link}}" >{{referral.linkDesc}}</a>
-        <p *ngIf="referral.desc2">{{referral.desc2}}</p>
-        <p *ngIf="referral.desc3">{{referral.desc3}}</p>
-        <p *ngIf="referral.desc4">{{referral.desc4}}</p>
+        <a *ngIf="referral.link" href="{{referral.link}}" target="_blank">{{referral.linkDesc}}</a>
+        <p *ngIf="referral.desc2" [innerHTML]="referral.desc2"></p>
+        <p *ngIf="referral.desc3" [innerHTML]="referral.desc3"></p>
+        <p *ngIf="referral.desc4" [innerHTML]="referral.desc4"></p>
         <table class="pure-table pure-table-bordered">
             <thead>
                 <tr>

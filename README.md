@@ -3,7 +3,7 @@
 ## gh pages info
 
 Deploy your project to GitHub pages with all default settings. Your project will be automatically built in production mode.
-ng deploy --base-href=/<repositoryname>/
+ng deploy
 
 for custom domain
 ng deploy --cname=example.org
