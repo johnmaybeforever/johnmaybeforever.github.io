@@ -8,4 +8,8 @@ import { topReferrals } from '../raw-referrals';
 })
 export class TopReferralsComponent {
   referrals = topReferrals;
+  removeStrings(title: string){
+    const regex=/ /g;
+    return title.replace(regex, '').toLowerCase();
+  }
 }
