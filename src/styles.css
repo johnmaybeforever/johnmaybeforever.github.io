@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0 auto;
+  max-width: 75ch;
+}
+
+/* @media screen and (max-width: 200ch) {
+todo, add some 2x2 grid
+} */

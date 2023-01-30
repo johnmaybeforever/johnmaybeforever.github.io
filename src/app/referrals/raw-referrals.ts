@@ -2,7 +2,7 @@ import { referral } from './referral.interface';
 export const topReferrals: referral[] = [
   {
     title: 'Juno - Online Bank',
-    desc: 'FDIC-insured bank. 5% APY up to $25,000. 3% on rest.',
+    desc: 'FDIC-insured bank. 5% APY up to $25,000. 3% APY on remaining savings.',
     desc2: '5% cash back on up to 5 merchants',
     desc3:
       'They offer optional crypto services which you can ignore and just use the banking/debit card services. Remember that crypto is not FDIC-insured so if you do buy crypto assets, you should move them into a self-custody wallet. More details: ' +
@@ -16,7 +16,7 @@ export const topReferrals: referral[] = [
     pros: ['5% APY', 'debit card offers 5% cashback on certain brands', ''],
     cons: [
       'new company, rates might not last long',
-      'Referral bonus only for $50 crypto purchase',
+      'Prompts for crypto (optional). Referral bonus only for $50 crypto purchase',
       'Camera access required for selfie and govt ID and may need to do twice',
     ],
     lastUpdated: 'Jan 2023',

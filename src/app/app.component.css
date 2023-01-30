@@ -6,6 +6,10 @@ a:active {
   background-color: green;
 }
 
+h1 {
+  text-align: center;
+}
+
 @media screen and (min-width: 480px) {
   h1 {
     padding-left: 1rem;
