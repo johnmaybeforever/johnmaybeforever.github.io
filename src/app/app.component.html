@@ -1,8 +1,24 @@
 <header>
-    <nav>
-        
+    <h1>PracticalReviews.Org</h1>
+<h2> Beta Version - Weekly updates release every Friday night</h2>
+    <nav id="jNav" class="pure-menu pure-menu-horizontal">
+        <ul class="pure-menu-list">
+            <li class="pure-menu-item" [class.pure-menu-selected]="this.route==='/'">
+                <a routerLink="" class="pure-menu-link" >Home</a>
+            </li>
+            <!-- <li class="pure-menu-item" [class.pure-menu-selected]="this.route.startsWith('/web-tools')">
+                <a href="#" class="pure-menu-link">Web Tools</a>
+            </li>
+            <li class="pure-menu-item" [class.pure-menu-selected]="this.route.startsWith('/review')">
+                <a href="#" class="pure-menu-link">Reviews</a>
+            </li> 
+            <li class="pure-menu-item" [class.pure-menu-selected]="this.route.startsWith('/referrals')">
+                <a routerLink="/referrals" class="pure-menu-link">Referrals</a>
+            </li> -->
+        </ul>
+
+
     </nav>
 </header>
-<app-home></app-home>
-<app-referral-page>
-    <footer>Updated Jan 23, 2023. All Rights Reserved. Unless stated otherwise, this website has no affiliation with any of the mentioned products, merchants, or services.</footer>
+<router-outlet></router-outlet>
+<footer>Updated Jan 27, 2023. All Rights Reserved. Unless stated otherwise, this website has no affiliation with any of the mentioned products, merchants, or services.</footer>
