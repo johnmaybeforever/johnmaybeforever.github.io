@@ -5,7 +5,7 @@ export const topReferrals: referral[] = [
     desc: 'FDIC-insured bank. 5% APY up to $25,000. 3% APY on remaining savings.',
     desc2: '5% cash back on up to 5 merchants',
     desc3:
-      'They offer optional crypto services which you can ignore and just use the banking/debit card services. Remember that crypto is not FDIC-insured so if you do buy speculative crypto assets, you should move them into a self-custody wallet. All cryptocurrency except bitcoin should not be considered an investment for users who are not experts. More details: ' +
+      'They offer <b>optional</b> crypto services which you can ignore and just use the banking/debit card services. Remember that cryptocurrency is not FDIC-insured so if you do buy speculative crypto assets, you should move them into a self-custody wallet. More details: ' +
       `<a target="_blank" href="https://www.doctorofcredit.com/juno-bank-earn-2-15-apy-guaranteed-for-12-months-first-1000-that-pre-register/">DoctorOfCredit post</a>`,
     desc4:
       'Add $25,000 by February 15th, 2023, reach out to support and hold $20,000 for 15 days to get a bonus (around $35).' +
@@ -16,7 +16,7 @@ export const topReferrals: referral[] = [
     pros: ['5% APY', 'debit card offers 5% cashback on certain brands', ''],
     cons: [
       'new company, rates might not last long',
-      'Prompts for crypto (optional). Referral bonus only for $50 crypto purchase',
+      'Heavy advertisements for crypto use. Referral bonus only for $50 crypto purchase',
       'Camera access required for selfie and govt ID and may need to do twice',
     ],
     lastUpdated: 'Jan 2023',
@@ -26,14 +26,15 @@ export const topReferrals: referral[] = [
     link: 'https://www.coinbase.com/join/malken_4',
     linkDesc: 'Coinbase signup',
     desc: "No purchase needed. We'll both earn $10 after you join Coinbase.",
+    desc4: "If you want to purchase crypto for low fees, you should use your same account at their <a href='https://pro.coinbase.com/'>sister \"pro\" site</a> or elsewhere for even lower fees. All crypto except Bitcoin (and maybe Monero) are speculative and should not be considered as an investment or hedge against the mighty US Dollar.",
     pros: [
       'Free $10',
       'US Company. One of oldest crypto companies at over 10 years',
       'Occasional free crypto for completing easy quiz',
     ],
     cons: [
-      'If you want to purchase more crypto, you can find lower fees elsewhere',
       'Govt ID required',
+      'High fees for purchasing crypto',
       '',
     ],
     lastUpdated: '2022',
@@ -55,12 +56,12 @@ export const topReferrals: referral[] = [
       'In Dec 2022, I was able to get a total of 7 free tickets.' +
       " If you want to purchase more lottery tickets (you shouldn't), there are fees.",
     linkDesc: 'Slips signup',
-    pros: ['Free tickets', 'Quick updates to show your ticket number', '', ''],
+    pros: ['Free tickets', 'Relatively quick updates to show your ticket number prior to drawing', '', ''],
     cons: [
-      'New company',
-      'Phone number required',
+      'Phone number required. Need to opt out of their occasional spam text',
+      'Share with friend expires quickly and requires multiple input',
       '$10 minimum to cash out',
-      'Share with friend expires quickly',
+      'New company',
     ],
   }
 ];
