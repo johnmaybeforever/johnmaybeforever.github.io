@@ -3,7 +3,7 @@ export const topReferrals: referral[] = [
   {
     title: 'Juno - Online Bank',
     desc: 'FDIC-insured bank. 5% APY up to $25,000. 3% APY on remaining savings.',
-    desc2: '5% cash back on up to 5 merchants',
+    desc2: '5% cash back on up to 5 pre-selected merchants',
     desc3:
       'They offer <b>optional</b> crypto services which you can ignore and just use the banking/debit card services. Remember that cryptocurrency is not FDIC-insured so if you do buy speculative crypto assets, you should move them into a self-custody wallet. More details: ' +
       `<a target="_blank" href="https://www.doctorofcredit.com/juno-bank-earn-2-15-apy-guaranteed-for-12-months-first-1000-that-pre-register/">DoctorOfCredit post</a>`,
