@@ -41,10 +41,10 @@ export const topReferrals: referral[] = [
   },
   {
     title: 'Slips - Free State Lottery Tickets',
-    desc: 'Free lottery tickets if you are located in NY, FL, CA, TX, or DE.',
+    desc: 'Free lottery tickets if you are located in NY, FL, CA, TX, or DE, from the comfort of your home.',
     link: 'https://slips.com/invite?code=3c20',
     desc2:
-      'No payment method or address needed to get the free tickets. Your phone number and device location is required.',
+      'No purchase, payment method, or address needed to get the free tickets. Only your phone number and device location is needed.',
     desc3:
       'After adding your email, you can use promo code MYEMAIL.' +
       ' There are additional promo codes, but they may expire soon and you are limited to using one per day.' +
