@@ -1,26 +1,28 @@
 import { referral } from './referral.interface';
+
+export const juno =   {
+  title: 'Juno - Online Bank',
+  desc: 'FDIC-insured bank. 5% APY up to $25,000. 4% APY on remaining savings.',
+  desc2: '5% cash back on up to 5 pre-selected merchants',
+  desc3:
+    'They offer <b>optional</b> crypto services which you can ignore and just use the banking/debit card services. Remember that cryptocurrency is not FDIC-insured so if you do buy speculative crypto assets, you should move them into a self-custody wallet. More details: ' +
+    `<a target="_blank" href="https://www.doctorofcredit.com/juno-bank-earn-2-15-apy-guaranteed-for-12-months-first-1000-that-pre-register/">DoctorOfCredit post</a>`,
+  desc4:
+    'Add $25,000 by February 15th, 2023, reach out to support and hold $20,000 for 15 days to get a bonus (around $35).' +
+    ` Details here: <a target="_blank" href="https://help.juno.finance/en/articles/6890579-10-000-jcoin-bonus-when-you-hit-a-balance-of-25-000-in-your-juno-checking-account">` +
+    'official Juno info post</a>',
+  link: 'https://onjuno.onelink.me/TkoI/referral?code=MICHG2TP',
+  linkDesc: 'Juno signup',
+  pros: ['5% APY', 'debit card offers 5% cashback on certain brands', ''],
+  cons: [
+    'new company, rates might not last long',
+    'Heavy advertisements for crypto use. Referral bonus only for $50 crypto purchase',
+    'Camera access required for selfie and govt ID and may need to do twice',
+  ],
+  lastUpdated: 'Feb 2023',
+}
 export const topReferrals: referral[] = [
-  {
-    title: 'Juno - Online Bank',
-    desc: 'FDIC-insured bank. 5% APY up to $25,000. 3% APY on remaining savings.',
-    desc2: '5% cash back on up to 5 pre-selected merchants',
-    desc3:
-      'They offer <b>optional</b> crypto services which you can ignore and just use the banking/debit card services. Remember that cryptocurrency is not FDIC-insured so if you do buy speculative crypto assets, you should move them into a self-custody wallet. More details: ' +
-      `<a target="_blank" href="https://www.doctorofcredit.com/juno-bank-earn-2-15-apy-guaranteed-for-12-months-first-1000-that-pre-register/">DoctorOfCredit post</a>`,
-    desc4:
-      'Add $25,000 by February 15th, 2023, reach out to support and hold $20,000 for 15 days to get a bonus (around $35).' +
-      ` Details here: <a target="_blank" href="https://help.juno.finance/en/articles/6890579-10-000-jcoin-bonus-when-you-hit-a-balance-of-25-000-in-your-juno-checking-account">` +
-      'juno info post</a>',
-    link: 'https://onjuno.onelink.me/TkoI/referral?code=MICHG2TP',
-    linkDesc: 'Juno signup',
-    pros: ['5% APY', 'debit card offers 5% cashback on certain brands', ''],
-    cons: [
-      'new company, rates might not last long',
-      'Heavy advertisements for crypto use. Referral bonus only for $50 crypto purchase',
-      'Camera access required for selfie and govt ID and may need to do twice',
-    ],
-    lastUpdated: 'Jan 2023',
-  },
+  juno, 
   {
     title: 'Coinbase - $10 to $30 of cryptocurrency',
     link: 'https://www.coinbase.com/join/malken_4',
@@ -50,8 +52,8 @@ export const topReferrals: referral[] = [
       ' There are additional promo codes, but they may expire soon and you are limited to using one per day.' +
       ' In order of most recent to oldest: GETFREE, FIRSTTIME, FREETICKET, JACKPOT, FREE, HOLIDAYS.' +
       ' You can check for more codes here later or the "Get This Code" buttons at' +
-      ` <a href="https://slips.knoji.com/promo-codes" target="_blank">knoji</a>` +
-      ` or the "Show Promo Code" buttons at <a href="https://dealspotr.com/promo-codes/slips.com" target="_blank">dealspotr</a>`,
+      ` <a target="_blank" href="https://slips.knoji.com/promo-codes" target="_blank">knoji</a>` +
+      ` or the "Show Promo Code" buttons at <a target="_blank" href="https://dealspotr.com/promo-codes/slips.com" target="_blank">dealspotr</a>`,
     desc4:
       'In Dec 2022, I was able to get a total of 7 free tickets.' +
       " If you want to purchase more lottery tickets (you shouldn't), there are fees.",

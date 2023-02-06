@@ -1,11 +1,11 @@
-div {
+section {
   border-style: solid;
   margin: 0;
   padding: 0;
 }
 
 @media screen and (min-width: 480px) {
-  div {
+  section {
     margin: 1em;
     padding: 1em;
   }

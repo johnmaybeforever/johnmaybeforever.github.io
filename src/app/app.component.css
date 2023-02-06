@@ -6,10 +6,18 @@ a:active {
   background-color: green;
 }
 
-h1 {
+.logo {
+  font-size: xx-large;
   text-align: center;
   color: darkgreen;
 }
+
+.warning {
+  font-size: larger;
+  text-align: center;
+  color: darkgoldenrod;
+}
+
 li {
   padding-right: .5rem;
 }

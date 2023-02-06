@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { GiftcardsComponent } from './giftcards.component';
+import { TopReferralsComponent } from './top-referrals.component';
 
-describe('GiftcardsComponent', () => {
-  let component: GiftcardsComponent;
-  let fixture: ComponentFixture<GiftcardsComponent>;
+describe('ReferralPageComponent', () => {
+  let component: TopReferralsComponent;
+  let fixture: ComponentFixture<TopReferralsComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ GiftcardsComponent ]
+      declarations: [ TopReferralsComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(GiftcardsComponent);
+    fixture = TestBed.createComponent(TopReferralsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
