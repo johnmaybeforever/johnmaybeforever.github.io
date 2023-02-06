@@ -1,28 +1,39 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="utf-8">
+    <title>PracticalReviews.Org</title>
+    <base href="/">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <style>body{margin:0 auto;max-width:75ch}</style><link rel="stylesheet" href="styles.a916ebd7b133ebfa.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.a916ebd7b133ebfa.css"></noscript></head>
+  <body>
+    
+     <!-- Start Single Page Apps for GitHub Pages -->
+     <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // MIT License
+      // https://github.com/rafgraph/spa-github-pages
+      // This script checks to see if a redirect is present in the query string,
+      // converts it back into the correct url and adds it to the
+      // browser's history using window.history.replaceState(...),
+      // which won't cause the browser to attempt to load the new url.
+      // When the single page app is loaded further down in this file,
+      // the correct url will be waiting in the browser's history for
+      // the single page app to route accordingly.
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+    <!-- End Single Page Apps for GitHub Pages -->
 
-<head>
-  <meta charset="utf-8" />
+    <app-root></app-root>
+  <script src="runtime.d9c8e82fde48183a.js" type="module"></script><script src="polyfills.b802300a0c8d6839.js" type="module"></script><script src="main.ad1e9430e9188eeb.js" type="module"></script>
 
-  <title>Match your application's title</title>
-
-  <script>
-    // Store the URL the user was trying to access when receiving the 404.
-    sessionStorage.redirect = location.href;
-  </script>
-
-  <!-- Immediately redirect to the base URL so we can use the SPA routing. -->
-  <meta http-equiv="refresh" content="0;URL='/'"></meta>
-</head>
-
-<body>
-<!-- IE required at least 512 bytes of data to show non-default 404. -->
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</body>    
-            
-             
-</body>
-
-</html>
+</body></html>
