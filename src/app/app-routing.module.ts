@@ -1,13 +1,14 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { ReferralPageComponent } from './referrals/referral-page/referral-page.component';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import { ShoppingComponent } from './shopping/shopping.component';
+import { CreditCardsComponent } from './credit-cards/credit-cards.component';
 
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'referrals', component: ReferralPageComponent }
+  { path: 'money', component: CreditCardsComponent },
+  {path: 'shopping', component: ShoppingComponent}
 ];
 
 @NgModule({
