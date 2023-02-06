@@ -15,6 +15,7 @@ import { MoneyComponent } from './money/money.component';
 import { SignupsComponent } from './money/signups/signups.component';
 import { ReferralComponent } from './referrals/referral/referral.component';
 import { ReviewSitesComponent } from './shopping/review-sites/review-sites.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 @NgModule({
   declarations: [
     ReviewSitesComponent,
@@ -29,7 +30,8 @@ import { ReviewSitesComponent } from './shopping/review-sites/review-sites.compo
     MouseComponent,
     CreditCardsComponent,
     ShoppingComponent,
-    MoneyComponent
+    MoneyComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
