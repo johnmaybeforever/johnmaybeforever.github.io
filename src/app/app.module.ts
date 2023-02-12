@@ -17,6 +17,8 @@ import { ReferralComponent } from './referrals/referral/referral.component';
 import { ReviewSitesComponent } from './shopping/review-sites/review-sites.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { IntuitComponent } from './money/intuit/intuit.component';
+import { AllComponent } from './all/all.component';
+import { IBondsComponent } from './money/i-bonds/i-bonds.component';
 @NgModule({
   declarations: [
     ReviewSitesComponent,
@@ -33,7 +35,9 @@ import { IntuitComponent } from './money/intuit/intuit.component';
     ShoppingComponent,
     MoneyComponent,
     NotFoundComponent,
-    IntuitComponent
+    IntuitComponent,
+    AllComponent,
+    IBondsComponent
   ],
   imports: [
     BrowserModule,
