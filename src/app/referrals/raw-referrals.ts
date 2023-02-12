@@ -2,7 +2,7 @@ import { referral } from './referral.interface';
 
 export const juno =   {
   title: 'Juno - Online Bank',
-  desc: 'FDIC-insured bank. 5% APY up to $25,000. 4% APY on remaining savings.',
+  desc: 'FDIC-insured bank. 5.12% APY up to $25,000. 4% APY on remaining savings.',
   desc2: '5% cash back on up to 5 pre-selected merchants',
   desc3:
     'They offer <b>optional</b> crypto services which you can ignore and just use the banking/debit card services. Remember that cryptocurrency is not FDIC-insured so if you do buy speculative crypto assets, you should move them into a self-custody wallet. More details: ' +
@@ -13,11 +13,13 @@ export const juno =   {
     'official Juno info post</a>',
   link: 'https://onjuno.onelink.me/TkoI/referral?code=MICHG2TP',
   linkDesc: 'Juno signup',
-  pros: ['5% APY', 'debit card offers 5% cashback on certain brands', ''],
+  pros: ['5.12% APY, has kept up with rate increases in last year', 
+  'debit card offers 5% cashback on certain brands', ''],
   cons: [
-    'new company, rates might not last long',
+    'New company. No branch locations.',
     'Heavy advertisements for crypto use. Referral bonus only for $50 crypto purchase',
-    'Camera access required for selfie and govt ID and may need to do twice',
+    'Camera access required for selfie and govt ID (use mobile app to speed up the verification)',
+    'Does not support multiple login sessions yet. You will need to logout mobile app to use on your computer and vice-versa'
   ],
   lastUpdated: 'Feb 2023',
 }
