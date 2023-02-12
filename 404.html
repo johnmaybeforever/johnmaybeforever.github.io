@@ -1,38 +1,28 @@
 <!DOCTYPE html><html lang="en"><head>
     <meta charset="utf-8">
     <title>PracticalReviews.Org</title>
-    <script type="text/javascript">
-      // Single Page Apps for GitHub Pages
-      // MIT License
-      // https://github.com/rafgraph/spa-github-pages
-      // This script takes the current url and converts the path and query
-      // string into just a query string, and then redirects the browser
-      // to the new url with only a query string and hash fragment,
-      // e.g. https://www.foo.tld/one/two?a=b&c=d#qwe, becomes
-      // https://www.foo.tld/?/one/two&a=b~and~c=d#qwe
-      // Note: this 404.html file must be at least 512 bytes for it to work
-      // with Internet Explorer (it is currently > 512 bytes)
-
-      // If you're creating a Project Pages site and NOT using a custom domain,
-      // then set pathSegmentsToKeep to 1 (enterprise users may need to set it to > 1).
-      // This way the code will only replace the route part of the path, and not
-      // the real directory in which the app resides, for example:
-      // https://username.github.io/repo-name/one/two?a=b&c=d#qwe becomes
-      // https://username.github.io/repo-name/?/one/two&a=b~and~c=d#qwe
-      // Otherwise, leave pathSegmentsToKeep as 0.
-      var pathSegmentsToKeep = 0;
-
-      var l = window.location;
-      l.replace(
-        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
-        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
-        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-        l.hash
-      );
-
+    <base href="/">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css" integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <style>body{margin:0 auto;max-width:75ch}</style><link rel="stylesheet" href="styles.a916ebd7b133ebfa.css" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="styles.a916ebd7b133ebfa.css"></noscript></head>
+  <body>
+    <!-- Github Pages hack to allow SPA refresh without receiving 404. -->
+    <script>
+      (function () {
+        // Retrieve the URL the user was trying to access when receiving the 404.
+        var redirect = sessionStorage.redirect;
+        // Remove the URL from sessionStorage.
+        delete sessionStorage.redirect;
+        // Check if we actually need to redirect.
+        if (redirect && redirect != location.href) {
+          // We need to redirect to the URL the user was trying to access.
+          history.replaceState(null, null, redirect);
+        }
+      })();
     </script>
-    <!-- End Single Page Apps for GitHub Pages --><body>
-    
+    <!-- /Github Pages hack. -->
+    <app-root></app-root>
+  <script src="runtime.d9c8e82fde48183a.js" type="module"></script><script src="polyfills.b802300a0c8d6839.js" type="module"></script><script src="main.856eb84e6dce18a5.js" type="module"></script>
 
 </body></html>
