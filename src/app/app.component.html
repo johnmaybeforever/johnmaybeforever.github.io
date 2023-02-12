@@ -23,6 +23,12 @@
       </li>
       <!-- <li
         class="pure-menu-item"
+        [class.pure-menu-selected]="this.route.startsWith('/all')"
+      >
+        <a routerLink="all" class="pure-menu-link">All</a>
+      </li> -->
+      <!-- <li
+        class="pure-menu-item"
         [class.pure-menu-selected]="this.route.startsWith('/gadgets')"
       >
         <a href="#" class="pure-menu-link">Gadgets and Gifts</a>

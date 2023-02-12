@@ -5,7 +5,9 @@
   "projects": {
     "2023-NG": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {"skipTests": true}
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
