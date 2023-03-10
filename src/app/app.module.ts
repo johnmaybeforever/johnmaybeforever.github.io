@@ -6,8 +6,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { ReferralPageComponent } from './referrals/referral-page/referral-page.component';
 import { HomeComponent } from './home/home.component';
 import { TopReferralsComponent } from './referrals/top-referrals/top-referrals.component';
-import { ProductsComponent } from './products/products.component';
-import { FootMassageComponent } from './products/foot-massage/foot-massage.component';
+import { GadgetsComponent } from './gadgets/gadgets.component';
+import { FootMassageComponent } from './gadgets/foot-massage/foot-massage.component';
 import { CreditCardsComponent } from './shopping/credit-cards/credit-cards.component';
 import { ShoppingComponent } from './shopping/shopping.component';
 import { ProsConsTableComponent } from './common/pros-cons-table/pros-cons-table.component';
@@ -30,7 +30,7 @@ import { IBondsComponent } from './money/i-bonds/i-bonds.component';
     ReferralPageComponent,
     TopReferralsComponent,
     HomeComponent,
-    ProductsComponent,
+    GadgetsComponent,
     FootMassageComponent,
     CreditCardsComponent,
     ShoppingComponent,
