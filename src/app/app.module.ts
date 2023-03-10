@@ -7,7 +7,7 @@ import { ReferralPageComponent } from './referrals/referral-page/referral-page.c
 import { HomeComponent } from './home/home.component';
 import { TopReferralsComponent } from './referrals/top-referrals/top-referrals.component';
 import { ProductsComponent } from './products/products.component';
-import { MouseComponent } from './products/mouse/mouse.component';
+import { FootMassageComponent } from './products/foot-massage/foot-massage.component';
 import { CreditCardsComponent } from './shopping/credit-cards/credit-cards.component';
 import { ShoppingComponent } from './shopping/shopping.component';
 import { ProsConsTableComponent } from './common/pros-cons-table/pros-cons-table.component';
@@ -19,6 +19,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { IntuitComponent } from './money/intuit/intuit.component';
 import { AllComponent } from './all/all.component';
 import { IBondsComponent } from './money/i-bonds/i-bonds.component';
+
 @NgModule({
   declarations: [
     ReviewSitesComponent,
@@ -30,7 +31,7 @@ import { IBondsComponent } from './money/i-bonds/i-bonds.component';
     TopReferralsComponent,
     HomeComponent,
     ProductsComponent,
-    MouseComponent,
+    FootMassageComponent,
     CreditCardsComponent,
     ShoppingComponent,
     MoneyComponent,
