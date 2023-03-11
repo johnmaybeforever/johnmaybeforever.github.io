@@ -9,11 +9,19 @@ export class FootMassageComponent {
   pros = [
     "Massages calves as well as feet",
     "Massage areas can be turned off",
-    "Cheap"
+    ""
   ]
   cons = [
     "Heat takes 10 minutes to warm up and does not get very hot",
-    "No pressure settings (only speed)",
+    "No pressure settings (only speed). Some complain it is too strong.",
     "Made in China"
+  ]
+  humanPros = [
+    "Best",
+    ""
+  ]
+  humanCons = [
+    "Made in China",
+    "Expensive"
   ]
 }
