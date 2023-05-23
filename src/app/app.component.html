@@ -1,7 +1,9 @@
 <header>
   <div class="logo">No Agenda Reviews</div>
-  <div class="warning">Beta Version - Weekly updates release every Monday</div>
-  <p>The best review site *according to the Mueller Report</p>
+  <div class="warning">Beta Version - Monthly updates</div>
+  <p>
+    The best review site *according to the Mueller Report and the Durham Report
+  </p>
   <nav id="j-nav" class="pure-menu pure-menu-horizontal">
     <ul class="pure-menu-list">
       <li
@@ -32,7 +34,9 @@
         class="pure-menu-item"
         [class.pure-menu-selected]="this.route.startsWith('/gadgets')"
       >
-        <a routerLink="gadgets" class="pure-menu-link">Gadgets and Gifts(Beta)</a>
+        <a routerLink="gadgets" class="pure-menu-link"
+          >Gadgets and Gifts(Beta)</a
+        >
       </li>
       <!-- TODO ADD DROPDOWN WITH DUMPS, online-only tools -->
       <!-- <li
@@ -46,14 +50,12 @@
 </header>
 <router-outlet></router-outlet>
 <footer>
+  <p>Updated May 1, 2023. All Rights Reserved.</p>
   <p>
-    Updated Mar 10, 2023. All Rights Reserved. 
-  </p>
-  <p>
-    AMAZON ASSOCIATES DISCLOSURE. This
-    website has no affiliation with any of the mentioned products, merchants, or
-    services, with the exception of the Amazon Services LLC Associates Program, 
-    an affiliate advertising program designed to provide a means for sites to earn 
-    advertising fees by advertising and linking to Amazon.com.
+    AMAZON ASSOCIATES DISCLOSURE. This website has no affiliation with any of
+    the mentioned products, merchants, or services, with the exception of the
+    Amazon Services LLC Associates Program, an affiliate advertising program
+    designed to provide a means for sites to earn advertising fees by
+    advertising and linking to Amazon.com.
   </p>
 </footer>

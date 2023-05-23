@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./gadgets.component.css']
 })
 export class GadgetsComponent {
-
+  
+  fountainPros=["quiet", "auto-shutoff", ""]
+  fountainCons=["Made in China", "Cable is not chew-proof", "Pump not able to reach low level water (but not as bad as others)"]
 }
