@@ -8,6 +8,10 @@ a:active {
   background-color: green;
 }
 
+.center {
+  text-align: center;
+}
+
 .logo {
   font-size: xx-large;
   text-align: center;
