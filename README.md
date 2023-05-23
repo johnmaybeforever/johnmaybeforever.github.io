@@ -3,6 +3,9 @@
 ## gh pages info
 
 for custom domain
+ng deploy --cname=www.noagendareviews.com
+
+
 ng deploy --cname=www.practicalreviews.org
 
 Deploy your project to GitHub pages with all default settings. Your project will be automatically built in production mode.
