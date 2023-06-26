@@ -19,6 +19,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { IntuitComponent } from './money/intuit/intuit.component';
 import { AllComponent } from './all/all.component';
 import { IBondsComponent } from './money/i-bonds/i-bonds.component';
+import { SwatterComponent } from './gadgets/swatter/swatter.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { IBondsComponent } from './money/i-bonds/i-bonds.component';
     NotFoundComponent,
     IntuitComponent,
     AllComponent,
-    IBondsComponent
+    IBondsComponent,
+    SwatterComponent
   ],
   imports: [
     BrowserModule,
