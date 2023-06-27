@@ -23,6 +23,7 @@ import { SwatterComponent } from './gadgets/swatter/swatter.component';
 import { SunglassComponent } from './gadgets/sunglass/sunglass.component';
 import { GlassPadsComponent } from './gadgets/glass-pads/glass-pads.component';
 import { PepperSprayComponent } from './pepper-spray/pepper-spray.component';
+import { EightsleepComponent } from './eightsleep/eightsleep.component';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { PepperSprayComponent } from './pepper-spray/pepper-spray.component';
     SwatterComponent,
     SunglassComponent,
     GlassPadsComponent,
-    PepperSprayComponent
+    PepperSprayComponent,
+    EightsleepComponent
   ],
   imports: [
     BrowserModule,
