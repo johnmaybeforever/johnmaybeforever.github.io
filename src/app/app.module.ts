@@ -20,6 +20,9 @@ import { IntuitComponent } from './money/intuit/intuit.component';
 import { AllComponent } from './all/all.component';
 import { IBondsComponent } from './money/i-bonds/i-bonds.component';
 import { SwatterComponent } from './gadgets/swatter/swatter.component';
+import { SunglassComponent } from './gadgets/sunglass/sunglass.component';
+import { GlassPadsComponent } from './gadgets/glass-pads/glass-pads.component';
+import { PepperSprayComponent } from './pepper-spray/pepper-spray.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +43,10 @@ import { SwatterComponent } from './gadgets/swatter/swatter.component';
     IntuitComponent,
     AllComponent,
     IBondsComponent,
-    SwatterComponent
+    SwatterComponent,
+    SunglassComponent,
+    GlassPadsComponent,
+    PepperSprayComponent
   ],
   imports: [
     BrowserModule,
