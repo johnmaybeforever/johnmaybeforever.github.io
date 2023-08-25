@@ -4,6 +4,9 @@ p {
 a {
   background-color: rgb(159, 255, 255);
 }
+.strike-me {
+  background-color: white;
+}
 a:active {
   background-color: green;
 }
