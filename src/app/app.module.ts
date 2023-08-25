@@ -24,6 +24,7 @@ import { SunglassComponent } from './gadgets/sunglass/sunglass.component';
 import { GlassPadsComponent } from './gadgets/glass-pads/glass-pads.component';
 import { PepperSprayComponent } from './pepper-spray/pepper-spray.component';
 import { EightsleepComponent } from './eightsleep/eightsleep.component';
+import { LensWipesComponent } from './gadgets/lens-wipes/lens-wipes.component';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import { EightsleepComponent } from './eightsleep/eightsleep.component';
     SunglassComponent,
     GlassPadsComponent,
     PepperSprayComponent,
-    EightsleepComponent
+    EightsleepComponent,
+    LensWipesComponent
   ],
   imports: [
     BrowserModule,
