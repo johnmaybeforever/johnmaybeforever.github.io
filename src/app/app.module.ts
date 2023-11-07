@@ -25,6 +25,7 @@ import { GlassPadsComponent } from './gadgets/glass-pads/glass-pads.component';
 import { PepperSprayComponent } from './pepper-spray/pepper-spray.component';
 import { EightsleepComponent } from './eightsleep/eightsleep.component';
 import { LensWipesComponent } from './gadgets/lens-wipes/lens-wipes.component';
+import { PocketPepperComponent } from './pocket-pepper/pocket-pepper.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { LensWipesComponent } from './gadgets/lens-wipes/lens-wipes.component';
     GlassPadsComponent,
     PepperSprayComponent,
     EightsleepComponent,
-    LensWipesComponent
+    LensWipesComponent,
+    PocketPepperComponent
   ],
   imports: [
     BrowserModule,
