@@ -26,6 +26,7 @@ import { PepperSprayComponent } from './pepper-spray/pepper-spray.component';
 import { EightsleepComponent } from './eightsleep/eightsleep.component';
 import { LensWipesComponent } from './gadgets/lens-wipes/lens-wipes.component';
 import { PocketPepperComponent } from './pocket-pepper/pocket-pepper.component';
+import { SlipOnBootsComponent } from './slip-on-boots/slip-on-boots.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { PocketPepperComponent } from './pocket-pepper/pocket-pepper.component';
     PepperSprayComponent,
     EightsleepComponent,
     LensWipesComponent,
-    PocketPepperComponent
+    PocketPepperComponent,
+    SlipOnBootsComponent
   ],
   imports: [
     BrowserModule,
