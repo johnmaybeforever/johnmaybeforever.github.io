@@ -27,6 +27,7 @@ import { EightsleepComponent } from './eightsleep/eightsleep.component';
 import { LensWipesComponent } from './gadgets/lens-wipes/lens-wipes.component';
 import { PocketPepperComponent } from './pocket-pepper/pocket-pepper.component';
 import { SlipOnBootsComponent } from './slip-on-boots/slip-on-boots.component';
+import { CopilotComponent } from './copilot/copilot.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import { SlipOnBootsComponent } from './slip-on-boots/slip-on-boots.component';
     EightsleepComponent,
     LensWipesComponent,
     PocketPepperComponent,
-    SlipOnBootsComponent
+    SlipOnBootsComponent,
+    CopilotComponent
   ],
   imports: [
     BrowserModule,
